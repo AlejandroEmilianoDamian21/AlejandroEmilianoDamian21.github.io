@@ -384,3 +384,151 @@ body {
     margin: 20px;
  
 } */
+
+.section__sobreNosotros--margen{
+  margin-left: 5px;
+  margin-right: 0;
+  margin-top: 50px;
+}
+
+.section2__sobreNosotros{
+  margin-left: 5px;
+  margin-right: 0;
+  margin-top: 100px;
+}
+
+.container__section1{
+  position: relative;
+  width: 100%;
+}
+.section__title1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.section__parrafo1{
+  font-size: 20px;
+  font-weight: 200;
+}
+.cuadrado{
+  border-radius: 0 12px 12px 0 ;
+  background: palegreen;
+  height: 60px;
+  margin: -30px 0;
+}
+.cuadrado2{
+  border-radius: 12px 0 0 12px ;
+  background: palegreen;
+  height: 60px;
+  margin: -30px 0;
+}
+
+.bordes__section--img{
+  border-radius: 12px;
+}
+
+.section2__sobreNosotros{
+  margin-bottom: 80px;
+}
+.section2__title{
+  margin: 20px;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+.section2__sobreNosotros--title{
+  margin: 20px;
+  font-weight: 400;
+}
+
+.section2__sobreNosotros--parrafo{
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.section__servicios--unicacion{
+margin-left: 7%;
+}
+
+.section2__parrafo{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.servicios__container{
+  margin-bottom: 200px;
+}
+
+.servicios__container2{
+  margin-bottom: 200px;
+}
+
+.servicios__container2--ubi{
+  position: relative;
+}
+
+.boton-form{
+  font-size: 16px;
+  font-weight: 800;
+  background: palegreen;
+  padding: 4px;
+  border-radius: 12px;
+  border-style: none;
+}
+
+.boton-form:hover{
+  transform-style: flat;
+  transition-delay: 1s;
+  background: rgb(152, 178, 251);
+}
+
+.text-decoration{
+    color: #98fb98;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/*
+.sobreNosotros__section1 h2{
+  width: 30%;
+  margin-top: 5%;
+  text-align: center;
+  background: #98fb98;
+  display: inline-block;
+}
+
+.sobreNosotros__section1  p {
+  position: absolute;
+  background: red;
+  display: inline-block;
+  width: 60%;
+  margin-top: 4%;
+  margin-left: %;
+  font-weight: 30px;
+  font-size: 18px;
+} */
