@@ -161,13 +161,13 @@ body {
 }
 
 .carrusel {
-  position: relative;
+  display: flex;
   margin-top: 500px;
+  /* margin-top: 80%; */
   margin-bottom: 100px;
 }
 
 .carrusel__seccion {
-  position: absolute;
   width: 100%;
   height: 400px;
 }
@@ -512,6 +512,126 @@ margin-left: 7%;
 .my-float{
 	margin-top:16px;
 }
+
+@media screen and (min-width:860px){
+  
+  .flotante{
+    margin-left: 150%;
+  }
+  
+}
+
+/*Se ejecuta*/
+@media screen and (min-width:768px) and (max-width:860px){
+  body{
+    background: #d800bb;
+  }
+  .contenido__seccion--titulo{
+    color: #e00d0d;
+  }
+  .flotante{
+    margin-left: 120%;
+  }
+
+  .carrusel{
+    display: flex;
+  margin-top: 80%;
+  margin-bottom: 10%;
+  }
+  /* .footer-Grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 20vh);
+    grid-template-areas:
+  } */
+
+
+  .llamanos{
+    width: 100%;
+    margin-left: 80%;
+    background: #73d800;
+  }
+  .telefono{
+    margin-left: 20%;
+  }
+
+  .footer__ubicacion--labels a img {
+    display: inline-block;
+    width: 30px;
+    margin-top: 20px;
+}
+.footer__map iframe{
+  margin-left: 4%;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 2px  rgb(250, 249, 252);
+  transition: 2s;
+  width:350px;
+  height:200px; 
+  margin-bottom: 50px;
+}
+.footer__redes {
+  display: flex;
+  width: 100%;
+}
+.footer__redes--item {
+  margin-left: 5%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+}
+
+@media screen and (min-width:300px) and (max-width:768px){
+  body{
+    background: #d800bb;
+  }
+  .contenido__seccion--titulo{
+    color: #25d366;
+  }
+
+  .carrusel{
+    display: flex;
+  margin-top: 200%;
+  margin-bottom: 70%;
+  }
+  /* .footer-Grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 20vh);
+    grid-template-areas:
+  } */
+
+  .llamanos{
+    margin-top: 100%;
+    background: #73d800;
+  }
+  .footer__ubicacion--labels a img {
+    display: inline-block;
+    width: 30px;
+    margin-left: 55%;
+    margin-top: 20px;
+}
+.footer__map iframe{
+  margin-left: 4%;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 2px  rgb(250, 249, 252);
+  transition: 2s;
+  width:350px;
+  height:200px; 
+  margin-bottom: 50px;
+}
+.footer__redes {
+  display: flex;
+  width: 100%;
+}
+.footer__redes--item {
+  margin-left: 5%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+}
+
 
 /*
 .sobreNosotros__section1 h2{
