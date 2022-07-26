@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link rel="stylesheet" href="style/style.css">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+
     <title>THE BLACK CLOUD</title>
   </head>
 
@@ -19,22 +25,32 @@
     </a>
     <!--Fin-->
     <header class="header">
-      <nav class="header__menu">
-        <a href="index.html" class="header__logo"><label class="header__logo--titulo" for="titulo">the black cloud</label></a
+      
+      <nav class="header__menu navbar navbar-expand-lg navbar-light bg-violet sticky-top">
+        <div class="container-fluid">
+        <a href="index.html" class="header__logo "><label class="header__logo--titulo" for="titulo">the black cloud</label></a
         >
-        <ul class="header__links">
-          <li class="header__menu--link"><a href="/pages/servicios.html">servicios</a></li>
-          <li class="header__menu--link"><a href="/pages/conocimientos.html">conocimientos</a></li>
-          <li class="header__menu--link"><a href="/pages/sobreNosotros.html">sobre nosotros</a></li>
-          <li class="header__menu--link"><a href="/pages/contactenos.html">contactenos</a></li>
-          <li class="header__menu--link ">
-            <a href="index.html"
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="header__links navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="header__menu--link nav-item "><a class="nav-link" href="pages/servicios.html">servicios</a></li>
+          <li class="header__menu--link nav-item "><a  class="nav-link" href="pages/conocimientos.html">conocimientos</a></li>
+          <li class="header__menu--link nav-item "><a class="nav-link" href="pages/sobreNosotros.html">sobre nosotros</a></li>
+          <li class="header__menu--link nav-item"><a  class="nav-link" href="pages/contactenos.html">contactenos</a></li>
+          <li class="header__menu--link nav-item">
+            <a href="pages/estimarProyecto.html"
               ><button class="header__button">estimar proyecto</button></a
             >
           </li>
         </ul>
+      </div>
+    </div>
       </nav>
     </header>
+    
     <div class="contenido" style="margin-top: 50px;">
       <div class="row contenido__seccion"">
         <div class="col-md-6">
@@ -71,13 +87,13 @@
             <!--Inicio de primer apartado-->
             <div class="carousel-item active" data-bs-interval="10000">
               <div class="row">
-              <div class="col-md-6">  <img src="/img/planificacion2.jpg" class="d-block contenido_planificacion--image " alt="...">
+              <div class="col-md-6">  <img src="img/planificacion2.jpg" class="d-block contenido_planificacion--image " alt="...">
               </div>
               <div class="col-md-6 ">
                 <div class=" contenido_planificacion--especificacion">
                   <h5>Planificación</h5>
                   <p>Una buena planificación y reflexión son la base del éxito de cualquier sitio web.Una mirada intuitiva al plan y el diseño a menudo es engañosa, y solo confiar en datos específicos brinda resultados tangibles.Hablemos de cómo podemos ayudarte</p>
-                  <a href="/pages/estimarProyecto.html">contactenos</a>
+                  <a href="../pages/estimarProyecto.html">contactenos</a>
                   <div>
                     <ul>
                     <li>Estrategia de experiencia de usuario</li>
@@ -95,7 +111,7 @@
             <div class="carousel-item active" data-bs-interval="10000">
               <div class="row">
               <div class="col-md-6">
-              <img src="/img/prototipo2.jpg" class="d-block contenido_planificacion--image " alt="...">
+              <img src="img/prototipo2.jpg" class="d-block contenido_planificacion--image " alt="...">
               </div>
               <div class="col-md-6 ">
                 <div class=" contenido_planificacion--especificacion">
@@ -119,14 +135,14 @@
             <div class="carousel-item active" data-bs-interval="10000">
               <div class="row">
               <div class="col-md-6">
-              <img src="/img/proyecto2.jpg" class="d-block contenido_planificacion--image " alt="...">
+              <img src="img/proyecto2.jpg" class="d-block contenido_planificacion--image " alt="...">
               </div>
               <div class="col-md-6 ">
                 <div class=" contenido_planificacion--especificacion">
                   <h5>Proyectos
                   </h5>
                   <p>Una interfaz de usuario es algo que puede llamar la atención o asustarlo si se hace incorrectamente.Es importante que la apariencia del sitio web, el sitio web y la aplicación hayan sido diseñadas por un diseñador de UI experimentado</p>
-                  <a href="/pages/estimarProyecto.html">contactenos</a>
+                  <a href="../The-Black-Cloud/pages/estimarProyecto.html">contactenos</a>
                   <div>
                     <ul>
                     <li>Informe diario de progresos</li>
@@ -151,114 +167,111 @@
           </button>
         </div>
       </section>
-  <footer class="footer">
-    <div class="row">
-      <div class="col-md-6 ">
-      <a href="index.html" class="header__logo--titulo">
-        <label for="" class="footer__title">THE BLACK CLOUD</label>
-      </a>
-      </div>
-      <div class="footer__redes col-md-6 footer--Grid">
-        <div >
-        <label for="" class="footer__redes--item">Redes sociales</label>
-        <ul class="footer__redes--lista">
-            <li>
-                <a href="https://www.facebook.com/profile.php?id=100010515875316" target="_blank" style="color: blue;"><img src="img/redes/facebook2.png"  alt="facebook"></a>
-                <a href="https://www.instagram.com/emilianoalejandro_ok/" target="_blank"><img src="img/redes/instagram2.png"  alt="instagram"></a>
-                <a href="https://www.linkedin.com/in/emiliano-damian-alejandro-57bb80223" target="_blank"><img src="img/redes/linkedin (1).png" style="width: 30px;"" alt="linkedin"></a>
-            </li>
-          </ul>
-          </div>
-        </div>
-      </div>
-     <div class="row" style="margin-top: 2%;">
-      <div class=" footer__ubicacion col-md-6">
-        <div class="footer__ubicacion--labels" >
-        <label for="direccion" class="footer__redes--direccion">Direccion</label>
-        <a href="https://goo.gl/maps/YbUuPkiAsWDpLtBs7" target="_blank"><img src="img/redes/marcador-de-posicion.png"class="footer__icon--ubicacion" alt="ubicacion"></a>
-          <div class="footer__ubicacion--especificaDiv">
-        <label for="" class="footer__ubicacion--especifica">Av Independecia 1578, <span>Tucuman, Argentina</span></label>
-          </div>
-      </div>
-        <div class="footer__map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.8306339751357!2d-65.22846224912968!3d-26.845338696781248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c77876b8b9b%3A0x1881652caf44db41!2sAv.%20Independencia%201578%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1655577114231!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>        
-      </div>
-      <div class="footer__contacto col-md-6" ">
-        
-        <div class="footer__ubicacion--labels llamanos" >
-          <label for="direccion" class="footer__redes--direccion">Llamanos</label>
-          <a href="tel:+3863440349"><img src="img/redes/smartphone.png"class="  footer__icon--ubicacion" alt="ubicacion"></a>
-            <div class="footer__ubicacion--especificaDiv">
-          <label for="" class="footer__ubicacion--especifica telefono">+54 9 3863440349<span>Tucuman, Argentina</span></label>
-            </div>
-        </div>
-        <div class="toast-container position-static" style="margin-left: auto; margin-right: auto;">
-      
-        <div class="toast fade show flotante" role="alert" aria-live="assertive" aria-atomic="true">
-          <div class="toast-header">
-            <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#98fb98"></rect></svg>
-      
-            <strong class="me-auto"  >THE BLACK CLOUD</strong>
-            <small class="text-muted">just now</small>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-          </div>
-          <div class="toast-body">
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    
+    >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block" >
+      <span>Conéctate con nosotros por redes sociales:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i></a>
+  
+      <a href="https://goo.gl/maps/wnEFgQhLuDfBdjj56" class="me-4 text-reset">
+        <i class="bi bi-geo-alt-fill"></i></a>
+
+      <a href="https://www.instagram.com/emilianoalejandro_ok/" class="me-4 text-reset">
+        <i class="bi bi-instagram"></i></a>
+
+      <a href="https://www.linkedin.com/in/emiliano-damian-alejandro-57bb80223/" class="me-4 text-reset">
+        <i class="bi bi-linkedin"></i></a>
+
+      <a href="" class="me-4 text-reset">
+        <i class="bi bi-github"></i></a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>THE BLACK CLOUD
+          </h6>
+          <p>
             La tecnologia es importante, pero lo unico que realmente importa es que hacemos con ella. <br> <b> Da el gran paso con los mejores!</b> Te estamos esperando...
-          </div>
-          <div class="wrapper">
-            <div class="candles">
-              <div class="light__wave"></div>
-              <div class="candle1">
-                <div class="candle1__body">
-                  <div class="candle1__eyes">
-                    <span class="candle1__eyes-one"></span>
-                    <span class="candle1__eyes-two"></span>
-                  </div>
-                  <div class="candle1__mouth"></div>
-                </div>
-                <div class="candle1__stick"></div>
-              </div>
-              
-              <div class="candle2">
-                <div class="candle2__body">
-                  <div class="candle2__eyes">
-                    <div class="candle2__eyes-one"></div>
-                    <div class="candle2__eyes-two"></div>
-                  </div>
-                </div>
-                <div class="candle2__stick"></div>
-              </div>
-              <div class="candle2__fire"></div>
-              <div class="sparkles-one"></div>
-              <div class="sparkles-two"></div>
-              <div class="candle__smoke-one">
-          
-              </div>
-              <div class="candle__smoke-two">
-          
-              </div>
-              
-            </div>
-            <div class="floor">
-            </div>
-            
-          
-          </div>
-          
+          </p>
         </div>
-        
-    </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Manejo
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+   
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contacto
+          </h6>
+          <p><i class="bi bi-geo-fill"></i> Tuc, Av Independecia 1578</p>
+          <p>
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:" class="footer--contacto__enlaces">alejandroemiliano21@gmail.com</a>
+          </p>
+          <p><i class="bi bi-telephone-fill"></i> + 54 3863 4403 49</p>
+        </div>
+        <!-- Grid column -->
       </div>
+      <!-- Grid row -->
     </div>
-    <div class="row copyright" style="position: relative;">
-      <div class="col-12 copyright__container" style="background:rgb(0, 0, 0); position: absolute; text-align: center; width: 100%;  margin-top: 10%; margin-left: 12px; padding: 20px;">
-        <p>Copyright © <a href="https://www.facebook.com/theblackcloud.es" target="_blank">The Black Cloud</a> , Todos los derechos reservados.</p>
-      </div>  
-    </div>
-    </footer>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">The Black Cloud</a>
   </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="js/animacion.js"></script>
+
   </body>
 </html>
