@@ -72,12 +72,13 @@
 
 .contenido {
   position: relative;
-  display: block;
+  display: flex;
+  margin-top: 0%;
   margin-bottom: 50%;
 }
 .contenido .contenido__seccion {
   position: absolute;
-  margin-top: 10%;
+  margin-top: 0%;
   background: rgb(239, 239, 239);
 }
 .contenido .contenido__seccion--titulo {
@@ -139,7 +140,7 @@
   display: flex;
   margin-top: 500px;
   /* margin-top: 80%; */
-  margin-bottom: 250px;
+  margin-bottom: 150px;
 }
 .carrusel .carrusel__seccion {
   width: 100%;
