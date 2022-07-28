@@ -1,0 +1,24 @@
+{
+  "name": "the-black-cloud",
+  "version": "1.0.0",
+  "description": "\"The Black Cloud\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss style/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroEmilianoDamian21/AlejandroEmilianoDamian21.github.io.git"
+  },
+  "author": "Tiki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandroEmilianoDamian21/AlejandroEmilianoDamian21.github.io/issues"
+  },
+  "homepage": "https://github.com/AlejandroEmilianoDamian21/AlejandroEmilianoDamian21.github.io#readme",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}
