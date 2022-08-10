@@ -1,0 +1,39 @@
+
+
+@mixin medias($breakpoint){
+	@if $breakpoint == mobile{
+		@media (min-width: 320px){
+			@content;
+		}
+	}
+	@if $breakpoint == tablet{
+		@media (min-width: 600px){
+			@content;
+		}
+	}
+	@if $breakpoint == desktop{
+		@media (min-width: 1200px){
+			@content;
+		}
+	}
+}
+
+main{
+	@include medias(mobile){
+		background-color:violet;
+	}
+	@include medias(tablet){
+		background-color:deeppink;
+	}
+	@include medias(desktop){
+		background-color: #af40f6;
+	}
+}
+
+@each $icono in facebook, twitter, instagram{
+	.#{$icono}-icon{
+		background-image:url(../img/#{$icono}.svg);
+		list-style: none;
+		margin-right: 6px;
+	}
+}
